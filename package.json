@@ -1,13 +1,9 @@
 {
   "scripts": {
-    "build": "./node_modules/.bin/webpack src/app.js bundle.js",
-    "test": "./node_modules/.bin/jasmine-node ./",
+    "test": "./node_modules/.bin/jasmine-node spec",
     "watch": "./node_modules/.bin/jasmine-node --autotest --color spec src"
   },
   "devDependencies": {
-    "jsx-loader": "~0.10.0",
-    "react": "~0.10.0",
-    "webpack": "~1.0.0",
     "jasmine-node": "^1.14.3"
   }
 }
