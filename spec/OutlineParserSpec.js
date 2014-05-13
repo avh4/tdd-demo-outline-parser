@@ -84,4 +84,16 @@ describe('OutlineParser', function() {
   //     ]}
   //   ]);
   // });
+  // 
+  // it('handles grandchildren for parents besides the first', function() {
+  //   expect(OutlineParser('A\nB\n b1\n  b1i'))
+  //   .toEqual([
+  //     {name: 'A', children: []},
+  //     {name: 'B', children: [
+  //       {name: 'b1', children: [
+  //         {name: 'b1i', children: []}
+  //       ]}
+  //     ]}
+  //   ]);
+  // });
 });
