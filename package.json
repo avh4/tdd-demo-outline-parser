@@ -1,9 +1,10 @@
 {
   "scripts": {
-    "test": "./node_modules/.bin/jasmine-node spec",
-    "watch": "./node_modules/.bin/jasmine-node --autotest --color spec src"
+    "test": "mocha spec",
+    "watch": "mocha -w spec"
   },
   "devDependencies": {
-    "jasmine-node": "^1.14.3"
+    "chai": "^1.9.1",
+    "mocha": "^1.21.1"
   }
 }
